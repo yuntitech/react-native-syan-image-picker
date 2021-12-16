@@ -16,6 +16,8 @@ Pod::Spec.new do |s|
   s.resource        = "TZImagePickerController/TZImagePickerController.bundle"
 
   s.dependency "React"
-  s.dependency "TZImagePickerController"
+
+  # https://github.com/banchichen/TZImagePickerController/commit/c904492761d1f9c531e7f35ab0b25fdeffa44dc2
+  s.dependency "TZImagePickerController", "3.6.8"
 
 end
